@@ -1,7 +1,7 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 
 from .views import *
-#from . import views
+# from . import views
 
 app_name = "courses"
 
